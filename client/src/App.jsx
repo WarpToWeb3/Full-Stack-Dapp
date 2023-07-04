@@ -17,11 +17,9 @@ function App() {
   useEffect(()=>{
     const template=async()=>{
    
-      const contractAddres="0xa64e3144835aF8781c750ceC432784a68d883266";
+      const contractAddres="0xe5B33f8dd1FE8a6c34741e0ffEC3971Cb3f8064E";
       const contractABI=abi.abi;
-      //Metamask part
-      //1. In order do transactions on goerli testnet
-      //2. Metmask consists of infura api which actually help in connectig to the blockhain
+      
       try{
 
         const {ethereum}=window;
